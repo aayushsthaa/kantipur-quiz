@@ -1,0 +1,282 @@
+.congratulations-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.congratulations-wrapper .congratulations-header {
+  background-color: #0096AF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 16px;
+  border-radius: 4px;
+}
+.congratulations-wrapper .congratulations-header h2 {
+  color: white;
+  font-size: 18px;
+  margin: 0px;
+}
+.congratulations-wrapper .congratulations-header figure {
+  margin: 0px;
+}
+.congratulations-wrapper .congratulations-header figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.congratulations-wrapper .congratulations-header .esewa-logo {
+  width: 72px;
+  height: 29px;
+}
+.congratulations-wrapper .congratulations-header .kmg-logo {
+  width: 40px;
+  height: 28px;
+}
+.congratulations-wrapper .congratulations-body {
+  border-radius: 8px;
+  border: 1px solid #DDDDDD;
+  padding: 36px 16px;
+  text-align: center;
+}
+.congratulations-wrapper .congratulations-body .congratulations-body-text h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.congratulations-wrapper .congratulations-body .congratulations-body-text h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.congratulations-wrapper .congratulations-body .congratulations-buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.congratulations-wrapper .congratulations-body .congratulations-buttons-container .share-now-btn {
+  padding: 12px 40px;
+  color: white;
+  background-color: #0096AF;
+  border-radius: 3px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.congratulations-wrapper .congratulations-body .congratulations-buttons-container .back-to-home {
+  color: black;
+}
+
+* {
+  font-family: "Poppins";
+}
+
+.kantipur-header {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.kantipur-logo {
+  width: 190px;
+  height: 60px;
+}
+.kantipur-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ad-1 img,
+.ad-2 img,
+.ad-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.nav-bar {
+  padding: 8px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.ads {
+  margin: 40px auto;
+}
+.ads > .row {
+  height: 414px;
+}
+.ads .col-lg-4 {
+  height: 100%;
+}
+
+.ads .ad-1,
+.ads .ad-2 {
+  height: 100%;
+}
+
+.ad-3 {
+  width: 100%;
+  height: 270px;
+}
+
+.result-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.result-wrapper .result-header {
+  background-color: #326CAC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+  border-radius: 4px;
+}
+.result-wrapper .result-header h2 {
+  color: white;
+  font-size: 18px;
+  margin: 0px;
+}
+.result-wrapper .result-body {
+  background-color: #D6E8FF;
+  padding: 0px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  border-radius: 4px;
+}
+.result-wrapper .result-body-text {
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.result-wrapper .result-body-text-span {
+  color: #D3486B;
+}
+.result-wrapper .result-body-text h1 {
+  font-weight: 800;
+  font-size: 42px;
+  color: #374677;
+  margin: 0px;
+}
+
+.predict-gpa-btn {
+  width: 100%;
+  height: 45px;
+  background-color: #3E4578;
+  border-radius: 3px;
+  color: white;
+  border: none;
+}
+.predict-gpa-btn-link {
+  margin-bottom: 64px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    font-size: 13px;
+  }
+  .ads > .ad-1 {
+    height: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .nav-bar {
+    font-size: 10px;
+  }
+  .nav .nav-link {
+    padding: 5px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .ads > .row {
+    height: auto;
+  }
+  .ads > .row > .col-lg-4 {
+    margin-bottom: 40px;
+    height: auto;
+  }
+  .ad-1,
+  .ad-2,
+  .ad-3 {
+    height: 200px !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .nav-bar {
+    font-size: 12px;
+  }
+}
+.predict-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.predict-wrapper .predict-header {
+  background-color: #0096AF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 16px;
+  border-radius: 4px;
+}
+.predict-wrapper .predict-header h2 {
+  color: white;
+  font-size: 18px;
+  margin: 0px;
+}
+.predict-wrapper .predict-header figure {
+  margin: 0px;
+}
+.predict-wrapper .predict-header figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.predict-wrapper .predict-header .esewa-logo {
+  width: 72px;
+  height: 29px;
+}
+.predict-wrapper .predict-header .kmg-logo {
+  width: 40px;
+  height: 28px;
+}
+.predict-wrapper .predict-body {
+  border-radius: 8px;
+  border: 1px solid #DDDDDD;
+  padding: 16px;
+  text-align: center;
+}
+.predict-wrapper .predict-body .predict-question {
+  font-size: 18px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+.predict-wrapper .predict-body .predict-choices {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.predict-wrapper .predict-body .predict-choices label {
+  cursor: pointer;
+  display: block;
+  text-align: left;
+  padding: 5px 20px;
+  border-radius: 4px;
+  border: 1px solid #7A7A7A;
+}
+.predict-wrapper .predict-body .predict-choices input {
+  display: none;
+}
+.predict-wrapper .predict-body .predict-choices input:checked + label {
+  background-color: #0096AF;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

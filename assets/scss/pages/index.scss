@@ -1,0 +1,165 @@
+*{
+    font-family: 'Poppins';
+}
+
+.kantipur-header {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.kantipur-logo {
+    width: 190px;
+    height: 60px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.ad-1 img,
+.ad-2 img,
+.ad-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.nav-bar {
+    padding: 8px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.ads {
+    margin: 40px auto;
+
+    &>.row {
+        height: 414px;
+    }
+
+    .col-lg-4 {
+        height: 100%;
+    }
+}
+
+.ads .ad-1,
+.ads .ad-2 {
+    height: 100%;
+}
+
+.ad-3 {
+    width: 100%;
+    height: 270px;
+}
+
+
+.result-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .result-header {
+        background-color: #326CAC;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 9px;
+        border-radius: 4px;
+
+        h2 {
+            color: white;
+            font-size: 18px;
+            margin: 0px;
+        }
+    }
+
+    .result-body {
+        background-color: #D6E8FF;
+        padding: 0px 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+        border-radius: 4px;
+
+        &-text {
+            display: flex;
+            padding-top: 40px;
+            align-items: center;
+            justify-content: space-between;
+
+            &-span {
+                color: #D3486B;
+            }
+
+            h1 {
+                font-weight: 800;
+                font-size: 42px;
+                color: #374677;
+                margin: 0px;
+            }
+        }
+    }
+}
+
+.predict-gpa-btn {
+    width: 100%;
+    height: 45px;
+    background-color: #3E4578;
+    border-radius: 3px;
+    color: white;
+    border: none;
+
+    &-link {
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav-bar {
+        font-size: 13px;
+    }
+
+    .ads>.ad-1 {
+        height: 20px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .nav-bar {
+        font-size: 10px;
+    }
+
+    .nav .nav-link {
+        padding: 5px !important;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    .ads>.row {
+        height: auto;
+
+        &>.col-lg-4 {
+            margin-bottom: 40px;
+            height: auto;
+        }
+    }
+
+    .ad-1,
+    .ad-2,
+    .ad-3 {
+        height: 200px !important;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    .nav-bar {
+        font-size: 12px;
+    }
+
+}
