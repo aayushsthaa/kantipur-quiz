@@ -80,3 +80,23 @@
         }
     }
 }
+@media  screen and (max-width:425px) {
+    .congratulations-wrapper {
+        .congratulations-header {
+            h2 {
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:1190px) {
+    .congratulations-wrapper {
+        .congratulations-header {
+            h2 {
+                font-size: 15px;
+            }
+        }
+    }
+    
+}
