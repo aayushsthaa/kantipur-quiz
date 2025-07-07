@@ -1,0 +1,112 @@
+{
+  "questions": [
+    {
+      "question": "Did you use mobile or any devices for entertainment purpose before the exam?",
+      "choices": [
+        { "label": "Very Often", "value": 1 },
+        { "label": "Sometimes", "value": 2 },
+        { "label": "Rarely", "value": 3 },
+        { "label": "Never", "value": 4 }
+      ]
+    },
+    {
+      "question": "Did you revise all topics before the exam?",
+      "choices": [
+        { "label": "Yes, thoroughly", "value": 4 },
+        { "label": "Mostly", "value": 3 },
+        { "label": "A little", "value": 2 },
+        { "label": "Not at all", "value": 1 }
+      ]
+    },
+    {
+      "question": "Did you sleep less than 5 hours before the exam?",
+      "choices": [
+        { "label": "Yes", "value": 1 },
+        { "label": "Maybe", "value": 2 },
+        { "label": "Not really", "value": 3 },
+        { "label": "No", "value": 4 }
+      ]
+    },
+    {
+      "question": "Did you complete all your assignments on time?",
+      "choices": [
+        { "label": "Always", "value": 4 },
+        { "label": "Usually", "value": 3 },
+        { "label": "Sometimes", "value": 2 },
+        { "label": "Never", "value": 1 }
+      ]
+    },
+    {
+      "question": "How often did you attend your classes?",
+      "choices": [
+        { "label": "Regularly", "value": 4 },
+        { "label": "Mostly", "value": 3 },
+        { "label": "Occasionally", "value": 2 },
+        { "label": "Rarely", "value": 1 }
+      ]
+    },
+    {
+      "question": "Did you wait until the last minute to start studying?",
+      "choices": [
+        { "label": "Yes, always", "value": 1 },
+        { "label": "Often", "value": 2 },
+        { "label": "Sometimes", "value": 3 },
+        { "label": "Never", "value": 4 }
+      ]
+    },
+    {
+      "question": "Did you participate in any group studies or peer discussions?",
+      "choices": [
+        { "label": "Frequently", "value": 4 },
+        { "label": "Sometimes", "value": 3 },
+        { "label": "Rarely", "value": 2 },
+        { "label": "Never", "value": 1 }
+      ]
+    },
+    {
+      "question": "How did you feel before entering the exam hall?",
+      "choices": [
+        { "label": "Very stressed", "value": 1 },
+        { "label": "Somewhat anxious", "value": 2 },
+        { "label": "Calm", "value": 3 },
+        { "label": "Confident", "value": 4 }
+      ]
+    },
+    {
+      "question": "How did you manage breaks during study sessions?",
+      "choices": [
+        { "label": "Took regular breaks", "value": 4 },
+        { "label": "Occasionally took breaks", "value": 3 },
+        { "label": "Rarely took breaks", "value": 2 },
+        { "label": "Didn't take any breaks", "value": 1 }
+      ]
+    },
+    {
+      "question": "What kind of study environment did you use?",
+      "choices": [
+        { "label": "Quiet and organized", "value": 4 },
+        { "label": "Mostly quiet", "value": 3 },
+        { "label": "Some distractions", "value": 2 },
+        { "label": "Very noisy", "value": 1 }
+      ]
+    },
+    {
+      "question": "Did you follow a fixed study schedule?",
+      "choices": [
+        { "label": "Yes, strictly", "value": 4 },
+        { "label": "Tried to", "value": 3 },
+        { "label": "Barely followed", "value": 2 },
+        { "label": "No schedule at all", "value": 1 }
+      ]
+    },
+    {
+      "question": "How often did you check your phone or social media while studying?",
+      "choices": [
+        { "label": "All the time", "value": 1 },
+        { "label": "A few times", "value": 2 },
+        { "label": "Rarely", "value": 3 },
+        { "label": "Never", "value": 4 }
+      ]
+    }
+  ]
+}

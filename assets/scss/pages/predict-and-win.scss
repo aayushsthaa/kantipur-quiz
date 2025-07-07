@@ -10,11 +10,16 @@
         justify-content: space-between;
         padding: 18px 16px;
         border-radius: 4px;
-
+        position: relative;
         h2 {
             color: white;
             font-size: 18px;
             margin: 0px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            white-space: nowrap;
         }
 
         figure {
@@ -75,4 +80,25 @@
             }
         }
     }
+}
+
+@media  screen and (max-width:425px) {
+    .predict-wrapper {
+        .predict-header {
+            h2 {
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:1190px) {
+    .predict-wrapper {
+        .predict-header {
+            h2 {
+                font-size: 15px;
+            }
+        }
+    }
+    
 }

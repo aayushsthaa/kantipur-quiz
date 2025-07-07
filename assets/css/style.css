@@ -69,6 +69,16 @@
   color: black;
 }
 
+@media screen and (max-width: 425px) {
+  .congratulations-wrapper .congratulations-header h2 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .congratulations-wrapper .congratulations-header h2 {
+    font-size: 15px;
+  }
+}
 * {
   font-family: "Poppins";
 }
@@ -98,8 +108,8 @@
   object-position: center;
 }
 
-.nav-bar {
-  padding: 8px;
+.nav-container {
+  padding: 8px 126px;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
 }
@@ -179,6 +189,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .nav-container {
+    padding: 8px 20px;
+  }
   .nav-bar {
     font-size: 13px;
   }
@@ -186,7 +199,7 @@
     height: 20px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 405px) {
   .nav-bar {
     font-size: 10px;
   }
@@ -208,7 +221,10 @@
     height: 200px !important;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
+  .nav-container {
+    padding: 8px 5px;
+  }
   .nav-bar {
     font-size: 12px;
   }
@@ -225,11 +241,17 @@
   justify-content: space-between;
   padding: 18px 16px;
   border-radius: 4px;
+  position: relative;
 }
 .predict-wrapper .predict-header h2 {
   color: white;
   font-size: 18px;
   margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
 }
 .predict-wrapper .predict-header figure {
   margin: 0px;
@@ -277,6 +299,17 @@
 .predict-wrapper .predict-body .predict-choices input:checked + label {
   background-color: #0096AF;
   color: white;
+}
+
+@media screen and (max-width: 425px) {
+  .predict-wrapper .predict-header h2 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .predict-wrapper .predict-header h2 {
+    font-size: 15px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
